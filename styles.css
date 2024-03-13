@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  cursor: context-menu;
+  font-size: 62.5%;
+  cursor: pointer;
+  background-color: #f6f6f6;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.constainer-width {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.product-name > h1 {
+  font-size: 50px;
+  color: #e99929;
+  text-align: center;
+}
+.container-product {
+  background-color: black;
+  padding: 20px;
+}
+.img {
+  width: 250px;
+}
+.img > img {
+  width: 100%;
+  margin-left: 20px;
+}
+.coca-cola {
+  background-color: #e9e9e9;
+
+  padding: 10px;
+  border-radius: 20px;
+}
+.btn {
+  background-color: rgb(255, 255, 255);
+  padding: 3px 20px;
+  font-size: 30px;
+  color: #e99929;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.btn1 {
+  background-color: rgb(255, 255, 255);
+  padding: 3px 20px;
+  font-size: 30px;
+  color: #e99929;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.number {
+  background-color: white;
+  padding: 3px 20px;
+  font-size: 30px;
+  color: #000000;
+  border-radius: 10px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+.menu-product {
+  /* background-color: rgb(255, 166, 0); */
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.coca-cola > h1 {
+  font-size: 35px;
+  text-align: center;
+  color: #fe3d3d;
+}
+.grid1x4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+  padding-right: 20px;
+}
+.product {
+  margin-top: 60px;
+}
+.Buy {
+  color: #ff0000;
+}
+.item {
+  font-size: 30px;
+  color: aliceblue;
+  margin-left: 600px;
+}
+.grid1x2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+.total {
+  background-color: #dfdede;
+  color: #000000;
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+/* .total {
+  width: 100%;
+  flex-direction: column;
+  margin-left: 1rem;
+  transition: all 0.3s ease-in-out;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+} */
+.menu-total {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #e99929;
+  padding: 10px 20px;
+  gap: 2rem;
+  color: #08f3ff;
+  border-radius: 10px;
+}
+.total-show {
+  margin-top: 60px;
+  font-size: 30px;
+  color: red;
+}
+.Total-salary {
+  margin-left: 150px;
+  margin-top: -100px;
+}
